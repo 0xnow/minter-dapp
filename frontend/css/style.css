@@ -394,3 +394,14 @@ section {
 .hidden {
   display: none;
 }
+
+html, body, canvas { height: 100%; }
+
+html { overflow: hidden; background: #020202; }
+
+body { margin: 0; }
+
+canvas {
+	position: absolute;
+	width: 100%;
+}
