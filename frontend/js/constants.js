@@ -1,8 +1,8 @@
-const contractAddress = "0x6C405af80383B3bD4C192B6E893fD7CB12B2cA2A"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0xb7519B495b7b19C574a5034f41e53eAC41b7a049"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the NeonPol NFT Project!!";
-const welcome_h2 = "Connect to MetaMask to Get your free mint";
+const welcome_h2 = "Connect to MetaMask to Get your NFT";
 const welcome_p = 'The NeonPol NFT Project is a decentralized, open-source project that aims to give you free NFT. Collab with <a href="https://artseries.art"  target="_blank" rel="noopener noreferrer">ArtSeries</a>';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";

@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "NEONPOL";
-const description = "a collection of 4444 nft created to honor the stars and several ecological circles and you in collaboration with Artseries";
+const description = "a collection of 4999 nft's created to honor the stars and several ecological circles and you in collaboration with Artseries";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -43,16 +43,16 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'NEONPOL';
 const CONTRACT_SYMBOL = 'NP';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x65616CD81493a0C4A9Ea2884411f6495Db95451f';
+const OWNER_ADDRESS = '0xDDE96393f7dA8199c2426100f2E9c35aB04FeEb3';
 const TREASURY_ADDRESS = '0x1cF4F2A26331f8cd41ca8c419945519C03C2B158';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.05; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 4999; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 0.2; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
